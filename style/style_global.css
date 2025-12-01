@@ -31,12 +31,15 @@ ul{
     justify-content: center;
 }
 ul li{
-    display: inline-block;
+    display: flex;
     border: solid;
     border-color: #A8804D;
-    margin: 10px;
-    padding: 4px 12px;
+    margin-left: 100px;
+    padding: 6px 3em;
     background-color: #D2BD65;
+    width: 200px;
+    justify-content: center;
+    
 }
 h1{
     font-family: 'montecarloregular';

@@ -1,4 +1,11 @@
+@font-face {
+    font-family: 'montecarloregular';
+    src: url('font/montecarlo-regular-webfont.woff2') format('woff2'),
+         url('font/montecarlo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
 
 body{

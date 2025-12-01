@@ -1,0 +1,42 @@
+body{
+    font-size: 16px;
+}
+
+
+header {
+    background: linear-gradient(to left, #C5A744, 80%, #D2BD65);
+
+}
+nav{
+    background-color: #C5A744;
+    border: solid;
+    border-width: 5px 0;
+    border-color: #A8804D;
+    display: flex;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    display: inline-block;
+    border: solid;
+    border-color: #A8804D;
+    margin: 10px;
+    padding: 4px 12px;
+    background-color: #D2BD65;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+}
+footer{
+    display: flex;
+    background-color:#C5A744;
+}

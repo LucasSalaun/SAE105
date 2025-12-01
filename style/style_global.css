@@ -40,7 +40,8 @@ ul li{
 }
 h1{
     font-family: 'montecarloregular';
-    font-size: 3em;
+    font-size: 6em;
+    font-weight: 100;
     margin: 10px;
     display: flex;
     justify-content: center;

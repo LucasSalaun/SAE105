@@ -12,6 +12,9 @@ body{
     font-size: 16px;
 }
 
+header figure{
+    size: 25%;
+}
 
 header {
     background: linear-gradient(to left, #C5A744, 80%, #D2BD65);

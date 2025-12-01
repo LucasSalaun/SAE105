@@ -31,6 +31,8 @@ ul li{
 h1{
     font-size: 3em;
     margin: 10px;
+    display: flex;
+    justify-content: center;
 }
 h2{
     font-size: 2em;

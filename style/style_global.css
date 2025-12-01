@@ -13,6 +13,7 @@ nav{
     border-width: 5px 0;
     border-color: #A8804D;
     display: flex;
+    padding: 10px;
 }
 ul{
     display: flex;
@@ -29,6 +30,7 @@ ul li{
 }
 h1{
     font-size: 3em;
+    margin: 10px;
 }
 h2{
     font-size: 2em;
@@ -38,5 +40,7 @@ h3{
 }
 footer{
     display: flex;
+    justify-content: space-between;
+    padding: 10px;
     background-color:#C5A744;
 }

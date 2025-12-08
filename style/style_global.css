@@ -87,3 +87,9 @@ header figure img{
         padding-left: 600px;
     }
 }
+
+article{
+    background-color: #D2BD65;
+    border-radius: 40px;
+    padding: 2em;
+}

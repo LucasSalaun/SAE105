@@ -51,7 +51,7 @@ div h3{
 }
 
 div h4{
-margin: 0 auto 0 2em;
+margin: 2em auto 0 1em;
 }
 
 .gauche{
@@ -66,6 +66,5 @@ margin: 0 auto 0 2em;
 }
 
 .centre{
-    height: em;
-    width: auto;
+margin: 0 15% 0 15%;
 }

@@ -20,3 +20,8 @@ summary h3{
 h2{
     text-align: center;
 }
+
+summary{
+    display: flex;
+    justify-content: space-between;
+}

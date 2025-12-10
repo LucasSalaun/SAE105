@@ -54,8 +54,11 @@ header ul li {
     background-color: #D2BD65;
     width: 200px;
     justify-content: center;
-    text-decoration: none;
-
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
 }
 
 h1 {
@@ -121,6 +124,6 @@ details summary {
     list-style: none;
 }
 
-main img{
+main img {
     border-radius: 40px;
 }

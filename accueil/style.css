@@ -14,7 +14,17 @@ img {
   margin-left: 5px;
 }
 
+.gauche{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
+.gauche img{
+  width: 300px;
+  margin-right: 5px;
+}
 
 /* 
 article img {

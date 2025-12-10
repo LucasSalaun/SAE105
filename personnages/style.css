@@ -25,3 +25,23 @@ summary{
     display: flex;
     justify-content: space-between;
 }
+
+
+.PapeFrancois{
+    display: flex;
+    flex-direction: row;
+    height: 25em;
+    padding: 0;
+}
+
+
+.PapeFrancois img{
+    height: 25em;
+    width: auto;
+    order: 1;
+    margin: 0;
+}
+
+.PapeFrancois h4{
+    order: 2;
+}

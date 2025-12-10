@@ -29,14 +29,10 @@ h2 {
     text-align: center;
 }
 
-article figure {
-    margin: 0;
-}
-
-/*Article Pape Francois*/
-
-
-
 main section p{
     font-size: 0.75em;
+}
+
+.Tombe img{
+    position: relative;
 }

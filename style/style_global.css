@@ -136,20 +136,24 @@ figure{
 /*imgDroite pour les articles avec image a droite*/
 /*!!! regroupez le texte et le titre dans un div !!!*/
 
-.imgDroite {
+.imgDroite, .imgDroiteGrand {
     display: flex;
     flex-direction: row;
     padding: 0;
     height: 20em;
 }
 
-.imgDroite img {
+.imgDroite img{
     height: 20em;
     width: auto;  
 }
 
-.imgDroite div{
-    margin: 0 1em 1em 1em;
+.imgDroite div, .imgDroiteGrand img{
+    margin: 0 0em 1em 1em;
+}
+
+.imgDroiteGrand, .imgDroiteGrand img{
+    height: 50em;
 }
 
 

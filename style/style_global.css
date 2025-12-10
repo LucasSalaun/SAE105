@@ -160,7 +160,7 @@ figure{
 /*imgDroite pour les articles avec image a gauche*/
 /*!!! regroupez le texte et le titre dans un div !!!*/
 
-.imgGauche {
+.imgGauche, .imgGaucheGrand {
     display: flex;
     flex-direction: row-reverse;
     padding: 0;
@@ -172,6 +172,10 @@ figure{
     width: auto;  
 }
 
-.imgGauche div{
+.imgGauche div, .imgGaucheGrand div{
     margin: 0 1em 1em 1em;
+}
+
+.imgGaucheGrand, .imgGaucheGrand img{
+    height: 50em;
 }

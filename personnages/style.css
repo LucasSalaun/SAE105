@@ -12,4 +12,5 @@ summary h3{
     }
     gap: 1em;
     overflow-x: auto;
+    padding-bottom: 1em;
 }

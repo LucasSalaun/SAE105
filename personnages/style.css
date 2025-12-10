@@ -35,7 +35,9 @@ article figure {
 
 /*Article Pape Francois*/
 
-
+.imgGauche{
+    flex-direction: row-reverse;
+}
 
 main section p{
     font-size: 0.75em;

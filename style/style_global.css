@@ -58,7 +58,7 @@ h1{
     font-family: 'montecarloregular';
     font-size: 6em;
     font-weight: 100;
-    margin: 10px;
+    margin: 0.3em;
 }
 h2{
     font-family: 'Outfit';
@@ -78,20 +78,19 @@ footer{
     background-color:#C5A744;
 }
 header figure img{
+    position: absolute;
     height: 150px;
     width: auto;
     margin: 0;
+    left: 10px;
+    top: 10px;
 }
 .titre_et_logo{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
-    h1{
-        padding-left: 600px;
-    }
 }
-
 article{
     background-color: #D2BD65;
     border-radius: 40px;

@@ -47,11 +47,7 @@ nav h3{
     left: 0.5em;
 }
 
-header ul {
-    display: flex;
-}
-
-header ul li {
+header a {
     display: flex;
     border: solid;
     border-color: #A8804D;
@@ -65,9 +61,6 @@ header ul li {
     margin: 1.5em;
 }
 
-a{
-    text-decoration: none;
-}
 
 h1 {
     font-family: 'montecarloregular';

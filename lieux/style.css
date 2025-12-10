@@ -20,7 +20,7 @@ article{
     display: flex;
     flex-direction: row;
 }
-.evenements{
+.evenement{
     display: flex;
     flex-direction: column;
 }

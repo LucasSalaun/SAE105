@@ -9,28 +9,12 @@ main h3 {
   justify-content: center;
 }
 
-/* .droite{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.droite img{
-  height: 25em;
-  width: auto;
-  margin-left: 5px;
-}
-.gauche{
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-}
-.gauche img{
-  width: 25em;
-  order: -1;
+/* main section p{
+    font-size: 0.75em;
 } */
 
 article div p{
   padding: 1.5em;
   margin-left: 1em;
+  font-size: 0.75em;
 }

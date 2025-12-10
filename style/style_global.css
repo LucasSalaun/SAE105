@@ -36,12 +36,12 @@ nav{
     display: flex;
     padding: 10px;
 }
-ul{
+header ul{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-ul li{
+header ul li{
     display: flex;
     border: solid;
     border-color: #A8804D;

@@ -35,37 +35,7 @@ article figure {
 
 /*Article Pape Francois*/
 
-.imgDroite {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    height: 20em;
-}
 
-.imgDroite img {
-    height: 20em;
-    width: auto;  
-}
-
-.imgDroite div{
-    margin: 0 1em 1em 1em;
-}
-
-.imgGauche {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    height: 20em;
-}
-
-.imgGauche img {
-    height: 20em;
-    width: auto;  
-}
-
-.imgGauche div{
-    margin: 0 1em 1em 1em;
-}
 
 main section p{
     font-size: 0.75em;

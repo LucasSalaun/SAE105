@@ -131,3 +131,43 @@ main img {
 figure{
     margin: 0;
 }
+
+
+/*imgDroite pour les articles avec image a droite*/
+/*!!! regroupez le texte et le titre dans un div !!!*/
+
+.imgDroite {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    height: 20em;
+}
+
+.imgDroite img {
+    height: 20em;
+    width: auto;  
+}
+
+.imgDroite div{
+    margin: 0 1em 1em 1em;
+}
+
+
+/*imgDroite pour les articles avec image a gauche*/
+/*!!! regroupez le texte et le titre dans un div !!!*/
+
+.imgGauche {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    height: 20em;
+}
+
+.imgGauche img {
+    height: 20em;
+    width: auto;  
+}
+
+.imgGauche div{
+    margin: 0 1em 1em 1em;
+}

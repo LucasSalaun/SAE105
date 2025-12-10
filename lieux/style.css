@@ -22,22 +22,26 @@ article{
     justify-content: space-between;
     padding: 0;
 }
-.evenement{
-    display: flex;
-    flex-direction: column;
-}
-article figure{
-    margin: 0;
-}
 
 .texte{
-    padding: 0 2em 0 2em;
+    padding: 0 0 0 2em;
 }
 
 .localisation{
     height: 35em;
 }
 
-.localisation figure{
-    padding: 0;
+
+summary {
+    display: flex;
+    justify-content: space-between;
+}   
+
+summary h3 {
+    padding: 0 1em;
+    margin: 0;
+}
+
+.evenement{
+    padding: 1em;
 }

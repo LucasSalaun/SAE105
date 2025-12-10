@@ -2,3 +2,23 @@ img {
   width: 30%;
   height: 300px;
 }
+
+.vatican{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.vatican img{
+  width: 300px;
+  margin-left: 20px;
+}
+
+
+
+/* 
+article img {
+  float: right;
+  margin-left: 20px;
+  width: 300px;
+} */

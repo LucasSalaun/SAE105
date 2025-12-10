@@ -2,54 +2,25 @@ img {
   width: 30%;
   height: 300px;
 }
-/* test */
-/* re test */
 
 
-
-
-article h3{
-    display: flex;
-    justify-content: center;
-    padding: 1em 0 1em 0;
-    width: auto;
-}
-
-/* .droite{
+.droite{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
 .droite img{
-  width: 300px;
+  width: 30em;
   margin-left: 5px;
 }
 .gauche{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
 }
 .gauche img{
-  width: 300px;
+  width: 25em;
   margin-left: 5px;
   order: -1;
-} */
-/* .gauche{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: flex-start;
 }
-
-.gauche img{
-  width: 300px;
-  margin-right: 5px;
-} */
-
-/* 
-article img {
-  float: right;
-  margin-left: 20px;
-  width: 300px;
-} */

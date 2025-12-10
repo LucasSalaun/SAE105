@@ -26,9 +26,6 @@ article{
     display: flex;
     flex-direction: column;
 }
-article img{
-    height: 100%;
-}
 article figure{
     margin: 0;
 }

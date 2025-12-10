@@ -29,71 +29,44 @@ h2 {
     text-align: center;
 }
 
-
-/*Article Pape Francois*/
-
-.PapeFrancois {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-}
-
-.PapeFrancois img {
-    height: 100%;
-    width: auto;
-    order: -1;
-}
-
-.PapeFrancois h4 {
-    order: 1;
-}
-
-.PapeFrancois div{
-    margin: 0 0 0 1em;
-}
-
-.PapeFrancois p {
-    order: 2;
-    align-self: flex-end;
-}
-
-
 article figure {
     margin: 0;
 }
 
-.Histoire {
+/*Article Pape Francois*/
+
+.imgDroite {
     display: flex;
     flex-direction: row;
     padding: 0;
     height: 20em;
 }
 
-.Histoire img {
+.imgDroite img {
     height: 20em;
     width: auto;  
 }
 
-.Histoire div{
+.imgDroite div{
     margin: 0 1em 1em 1em;
 }
 
-.Notable {
+.imgGauche {
     display: flex;
     flex-direction: row;
     padding: 0;
     height: 20em;
 }
 
-.Notable img {
+.imgGauche img {
     height: 20em;
     width: auto;  
 }
 
-.Notable div{
+.imgGauche div{
     margin: 0 1em 1em 1em;
 }
 
-p{
+main section p{
     font-size: 0.75em;
 }

@@ -8,3 +8,20 @@ padding: 0 2em 0 2em;
 margin: 1em auto 1em auto;
 border-radius: 20px;
 }
+article img{
+    height: 35em;
+    width: auto;
+}
+
+article div{
+    display: flex;
+    align-items: flex-start;
+}
+
+article{
+    padding: 2em 2em 2em 2em;
+}
+
+article h4{
+    align-self: flex-start;
+}

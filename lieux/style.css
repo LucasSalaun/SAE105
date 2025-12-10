@@ -19,8 +19,17 @@ article h3{
 article{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
 }
 .evenement{
     display: flex;
     flex-direction: column;
+}
+article img{
+    height: 100%;
+    width: auto;
+}
+article figure{
+    margin: 0;
 }

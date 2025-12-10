@@ -9,7 +9,7 @@ main h3 {
   justify-content: center;
 }
 
-.droite{
+/* .droite{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -28,7 +28,7 @@ main h3 {
 .gauche img{
   width: 25em;
   order: -1;
-}
+} */
 
 article div p{
   padding: 1.5em;

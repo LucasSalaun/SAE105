@@ -3,13 +3,13 @@ img {
   height: 300px;
 }
 
-.vatican{
+.droite{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.vatican img{
+.droite img{
   width: 300px;
   margin-left: 20px;
 }

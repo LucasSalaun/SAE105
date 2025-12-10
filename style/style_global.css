@@ -148,8 +148,8 @@ figure{
     width: auto;  
 }
 
-.imgDroite div, .imgDroiteGrand img{
-    margin: 0 0em 1em 1em;
+.imgDroite div, .imgDroiteGrand div{
+    margin: 0 1em 1em 1em;
 }
 
 .imgDroiteGrand, .imgDroiteGrand img{

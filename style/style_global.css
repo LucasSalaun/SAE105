@@ -37,6 +37,7 @@ nav {
     border-color: #A8804D;
     display: flex;
     padding: 1em;
+    align-items: center;
 }
 
 header ul {
@@ -56,6 +57,7 @@ header ul li {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    margin: 1.5em;
 }
 
 a{

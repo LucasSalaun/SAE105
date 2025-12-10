@@ -23,3 +23,8 @@ img {
   width: 25em;
   order: -1;
 }
+
+article div p{
+  padding: 1.5em;
+  margin-left: 1em;
+}

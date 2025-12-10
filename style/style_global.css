@@ -43,8 +43,6 @@ nav {
 
 header ul {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 header ul li {

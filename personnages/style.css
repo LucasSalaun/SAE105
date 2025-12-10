@@ -7,4 +7,7 @@ summary h3{
 
 .galerie{
     display: flex;
+    img{
+        border-radius: 0;
+    }
 }

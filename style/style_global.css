@@ -99,3 +99,7 @@ article{
     margin: 2em;
     box-shadow: 8px 5px 5px #A8804D ;
 }
+
+details summary{
+    list-style: none;
+}

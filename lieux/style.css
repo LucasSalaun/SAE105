@@ -1,9 +1,10 @@
 main h2{
+    width: 30em;
     display: flex;
     background-color: #C5A744;
     border-radius: 20px;
     padding: 0.5em ;
-    margin: 0 8em 3em 8em;
+    margin: 0 auto 3em auto;
     justify-content: center;
     font-weight: bold;
 }

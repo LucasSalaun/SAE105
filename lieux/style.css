@@ -33,3 +33,7 @@ article img{
 article figure{
     margin: 0;
 }
+
+.texte{
+    padding: 0 2em 0 2em;
+}

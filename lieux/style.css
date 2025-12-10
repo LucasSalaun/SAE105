@@ -28,7 +28,6 @@ article{
 }
 article img{
     height: 100%;
-    width: auto;
 }
 article figure{
     margin: 0;
@@ -36,4 +35,12 @@ article figure{
 
 .texte{
     padding: 0 2em 0 2em;
+}
+
+.localisation{
+    height: 35em;
+}
+
+.localisation figure{
+    padding: 0;
 }

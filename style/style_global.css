@@ -127,3 +127,7 @@ details summary {
 main img {
     border-radius: 40px;
 }
+
+figure{
+    margin: 0;
+}

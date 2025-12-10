@@ -30,18 +30,26 @@ summary{
 .PapeFrancois{
     display: flex;
     flex-direction: row;
-    height: 25em;
     padding: 0;
 }
 
-
 .PapeFrancois img{
-    height: 25em;
+    height: 100%;
     width: auto;
-    order: 1;
-    margin: 0;
+    order: -1;
+    margin: 0 1em 0 0 ;
+    
 }
 
 .PapeFrancois h4{
+    order: 1;
+}
+
+.PapeFrancois p{
     order: 2;
+    align-self: flex-end;
+}
+
+article figure {
+    margin: 0;
 }

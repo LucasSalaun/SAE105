@@ -32,9 +32,10 @@ article{
 }
 
 
-summary {
+summary{
     display: flex;
     justify-content: space-between;
+    width: 70em;
 }   
 
 summary h3 {

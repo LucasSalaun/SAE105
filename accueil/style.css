@@ -16,6 +16,13 @@ img {
 }
 .gauche{
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.gauche img{
+  width: 300px;
+  margin-left: 5px;
+  order: -1;
 }
 /* .gauche{
   display: flex;

@@ -42,11 +42,14 @@ h2 {
     height: 100%;
     width: auto;
     order: -1;
-    margin: 0 1em 0 0;
 }
 
 .PapeFrancois h4 {
     order: 1;
+}
+
+.PapeFrancois div{
+    margin: 0 0 0 1em;
 }
 
 .PapeFrancois p {
@@ -63,13 +66,34 @@ article figure {
     display: flex;
     flex-direction: row;
     padding: 0;
+    height: 20em;
 }
 
 .Histoire img {
-    height: 100%;
+    height: 20em;
     width: auto;  
 }
 
 .Histoire div{
     margin: 0 1em 1em 1em;
+}
+
+.Notable {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    height: 20em;
+}
+
+.Notable img {
+    height: 20em;
+    width: auto;  
+}
+
+.Notable div{
+    margin: 0 1em 1em 1em;
+}
+
+p{
+    font-size: 0.75em;
 }

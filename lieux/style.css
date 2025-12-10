@@ -1,0 +1,9 @@
+main h2{
+    display: flex;
+    background-color: #C5A744;
+    border-radius: 20px;
+    padding: 0.5em ;
+    margin: 0 8em 3em 8em;
+    justify-content: center;
+    font-weight: bold;
+}

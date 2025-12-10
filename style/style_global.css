@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'montecarloregular';
     src: url('font/montecarlo-regular-webfont.woff2') format('woff2'),
-         url('font/montecarlo-regular-webfont.woff') format('woff');
+        url('font/montecarlo-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -16,12 +16,12 @@
     font-display: swap;
 }
 
-body{
+body {
     font-size: 16px;
     margin: 0;
 }
 
-header figure{
+header figure {
     size: 25%;
 }
 
@@ -29,7 +29,8 @@ header {
     background: linear-gradient(to left, #C5A744, 80%, #D2BD65);
 
 }
-nav{
+
+nav {
     background-color: #C5A744;
     border: solid;
     border-width: 5px 0;
@@ -37,12 +38,14 @@ nav{
     display: flex;
     padding: 10px;
 }
-header ul{
+
+header ul {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-header ul li{
+
+header ul li {
     display: flex;
     border: solid;
     border-color: #A8804D;
@@ -52,32 +55,45 @@ header ul li{
     width: 200px;
     justify-content: center;
     text-decoration: none;
-    
+
 }
-h1{
+
+h1 {
     font-family: 'montecarloregular';
     font-size: 6em;
     font-weight: 100;
     margin: 0.3em;
 }
-h2{
+
+h2 {
     font-family: 'Outfit';
     font-size: 2em;
     font-weight: bold;
 }
-h3{
+
+h3 {
     font-size: 1.5em;
 }
-h4{
+
+main h3 {
+    background-color: #C5A744;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 1em;
+}
+
+h4 {
     font-size: 1.25em;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color:#C5A744;
+    background-color: #C5A744;
 }
-header figure img{
+
+header figure img {
     position: absolute;
     height: 150px;
     width: auto;
@@ -85,20 +101,26 @@ header figure img{
     left: 10px;
     top: 10px;
 }
-.titre_et_logo{
+
+.titre_et_logo {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
 }
-article{
+
+article {
     background-color: #D2BD65;
     border-radius: 40px;
     padding: 2em;
     margin: 2em;
-    box-shadow: 8px 5px 5px #A8804D ;
+    box-shadow: 8px 5px 5px #A8804D;
 }
 
-details summary{
+details summary {
     list-style: none;
+}
+
+main img{
+    border-radius: 40px;
 }

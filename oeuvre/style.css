@@ -8,12 +8,10 @@ padding: 0 2em 0 2em;
 margin: 1em auto 1em auto;
 border-radius: 20px;
 }
-
 article img{
     height: 35em;
     width: auto;
 }
-
 article figure{
     display: flex;
     margin: 0;
@@ -51,9 +49,23 @@ div h3{
     display: flex;
     justify-content: center;
 }
-.centre{
-    display: flex;
-}
+
 div h4{
 margin: 0 auto 0 2em;
+}
+
+.gauche{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.gauche h3{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.centre{
+    height: em;
+    width: auto;
 }

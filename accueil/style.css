@@ -16,7 +16,8 @@ main h3 {
 }
 
 .droite img{
-  width: 30em;
+  height: 25em;
+  width: auto;
   margin-left: 5px;
 }
 .gauche{

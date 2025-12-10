@@ -54,11 +54,13 @@ header ul li {
     background-color: #D2BD65;
     width: 200px;
     justify-content: center;
-    a {
-        text-decoration: none;
-        color: black;
-        font-weight: bold;
-    }
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
 }
 
 h1 {

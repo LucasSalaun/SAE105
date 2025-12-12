@@ -24,7 +24,7 @@ article{
 }
 
 .texte{
-    padding: 0 0 0 2em;
+    padding: 0 2em 0 2em;
 }
 
 .localisation{
@@ -45,4 +45,20 @@ summary h3 {
 
 .evenement{
     padding: 1em;
+}
+
+.visite{
+    margin-top: 6em;
+}
+.changement{
+    width: 30em;
+}
+
+.proximite{
+    margin-right: 1em;
+}
+
+.proximite h3{
+    padding-left: 0.2em;
+    padding-right: 0.2em;
 }

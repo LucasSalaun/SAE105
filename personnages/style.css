@@ -30,3 +30,7 @@ summary {
 h2 {
     text-align: center;
 }
+
+article p{
+    font-size: 0.90em;
+}

@@ -18,3 +18,14 @@ article div p{
   margin-left: 1em;
   font-size: 0.75em;
 }
+
+
+.imgGauche img {
+    margin-right: auto;
+}
+
+.imgGauche div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

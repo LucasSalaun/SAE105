@@ -157,7 +157,7 @@ figure{
 }
 
 .imgDroiteMoyen, .imgDroiteMoyen img{
-    height: 35em;
+    height: 30em;
 }
 
 
@@ -166,6 +166,7 @@ figure{
 
 .imgGauche, .imgGaucheGrand, .imgGaucheMoyen{
     display: flex;
+    justify-content: flex-end;
     flex-direction: row-reverse;
     padding: 0;
     height: 20em;
@@ -185,7 +186,7 @@ figure{
 }
 
 .imgGaucheMoyen, .imgGaucheMoyen img{
-    height: 35em;
+    height: 30em;
 }
 
 

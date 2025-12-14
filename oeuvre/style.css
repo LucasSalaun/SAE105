@@ -1,67 +1,76 @@
-main h2{display: flex;
-width: 10em;
-height: 2em;
-justify-content: center;
-align-items: center;
-background-color:#C5A744;
-padding: 0 2em 0 2em;
-margin: 1em auto 1em auto;
-border-radius: 20px;
+main h2 {
+  display: flex;
+  width: 10em;
+  height: 2em;
+  justify-content: center;
+  align-items: center;
+  background-color: #c5a744;
+  padding: 0 2em 0 2em;
+  margin: 1em auto 1em auto;
+  border-radius: 20px;
 }
-article img{
-    height: 35em;
-    width: auto;
+article img {
+  height: 35em;
+  width: auto;
 }
-article figure{
-    display: flex;
-    margin: 0;
-    justify-content: flex-end;
-    align-content: flex-start;
-}
-
-h3{
-    width: 20em;
+article figure {
+  display: flex;
+  margin: 0;
+  justify-content: flex-end;
+  align-content: flex-start;
 }
 
-article div{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+h3 {
+  width: 20em;
 }
 
-article{
-    display: flex;
-    padding: 0;
-    flex-direction: row ;
+article div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
-article h4{
-    align-self: flex-start;
-    width: auto;
+article {
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+}
+
+article h4 {
+  align-self: flex-start;
+  width: auto;
 }
 
 div {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
-div h3{
-    display: flex;
-    justify-content: center;
-}
-
-div h4{
-margin: 2em auto 0 1em;
+div h3 {
+  display: flex;
+  justify-content: center;
 }
 
-.gauche{
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
+div h4 {
+  margin: 2em auto 0 1em;
 }
 
-.gauche h3{
-    display: flex;
-    justify-content: flex-end;
+.gauche {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
 }
 
+.gauche h3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.droite {
+  display: flex;
+  justify-content: space-between;
+}
+
+.droite div {
+  margin: 0 0 0 1em;
+}

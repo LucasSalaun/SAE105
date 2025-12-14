@@ -22,7 +22,7 @@ body {
 }
 
 header figure {
-    size: 25%;
+    resize: 25%;
 }
 
 header {

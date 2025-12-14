@@ -25,6 +25,7 @@ header figure {
     size: 25%;
 }
 
+/* header + nav*/
 header {
     background: linear-gradient(to left, #C5A744, 80%, #D2BD65);
 
@@ -60,7 +61,23 @@ header a {
     margin: 1.5em;
 }
 
+header figure img {
+    position: absolute;
+    height: 150px;
+    width: auto;
+    margin: 0;
+    left: 10px;
+    top: 10px;
+}
 
+.titre_et_logo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+/* titres */
 h1 {
     font-family: 'montecarloregular';
     font-size: 6em;
@@ -87,8 +104,8 @@ main h3 {
 
 h4 {
     font-size: 1.25em;
-}
 
+}/*footer*/
 footer {
     display: flex;
     justify-content: space-between;
@@ -96,22 +113,9 @@ footer {
     background-color: #C5A744;
 }
 
-header figure img {
-    position: absolute;
-    height: 150px;
-    width: auto;
-    margin: 0;
-    left: 10px;
-    top: 10px;
-}
 
-.titre_et_logo {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-}
 
+/* bloc article*/
 article {
     background-color: #D2BD65;
     border-radius: 40px;

@@ -179,3 +179,7 @@ figure{
 .imgGaucheGrand, .imgGaucheGrand img{
     height: 50em;
 }
+
+.centre{
+margin: 0 15% 0 15%;
+}

@@ -1,3 +1,5 @@
+
+/*Réglage de la citation*/
 main h2{
     font-size: 2em;
     width: 30em;
@@ -9,54 +11,45 @@ main h2{
     justify-content: center;
     font-weight: bold;
 }
+/*Réglage des tites dans les articles*/
 article h3{
     display: flex;
     justify-content: center;
     padding: 1em 0 1em 0;
 }
-
+/*Réglage de la configuration des articles*/
 article{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0;
 }
-
+/*Esapce a gauche et a droite des textes*/
 .texte{
     padding: 0 2em 0 2em;
 }
-
 .localisation{
     height: 35em;
 }
 
-
-summary{
-    display: flex;
-    justify-content: space-between;
-    width: 90em;
-}   
-
-summary h3 {
-    padding: 0 1em;
-    margin: 0;
-}
-
+/*Pour mettre le titre au dessus du text dans evenement*/
 .evenement{
-    padding: 1em;
+    display: flex;
+    flex-direction: column;
 }
-
+/*Pour espacer localisation et visite proposé*/
 .visite{
     margin-top: 6em;
 }
+/*Pour mettre la longuer des blocks a 30em*/
 .changement{
     width: 30em;
 }
-
+/*pour ecarter le block de la bordure de l'article*/
 .proximite{
     margin-right: 1em;
 }
-
+/*Pour espacer le titre de la bordure*/
 .proximite h3{
     padding-left: 0.2em;
     padding-right: 0.2em;

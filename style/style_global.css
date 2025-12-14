@@ -190,7 +190,34 @@ figure{
 }
 
 
-
+/*Centrage des blocs*/
 .centre{
 margin: 0 15% 0 15%;
+}
+
+/*Menu ouvrant*/
+
+summary h3 {
+    background-color: #D2BD65;
+    padding: 0;
+    margin: 0;
+}
+
+summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Galerie photo*/
+.galerie {
+    display: flex;
+    gap: 1em;
+    overflow-x: auto;
+    padding-bottom: 1em;
+    margin: 1.5em;
+}
+
+.galerie img {
+    border-radius: 0;
 }

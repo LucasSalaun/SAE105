@@ -136,7 +136,7 @@ figure{
 /*imgDroite pour les articles avec image a droite*/
 /*!!! regroupez le texte et le titre dans un div !!!*/
 
-.imgDroite, .imgDroiteGrand {
+.imgDroite, .imgDroiteGrand, .imgDroiteMoyen{
     display: flex;
     flex-direction: row;
     padding: 0;
@@ -148,7 +148,7 @@ figure{
     width: auto;  
 }
 
-.imgDroite div, .imgDroiteGrand div{
+.imgDroite div, .imgDroiteGrand div, .imgDroiteMoyen div{
     margin: 0 1em 1em 1em;
 }
 
@@ -156,11 +156,15 @@ figure{
     height: 50em;
 }
 
+.imgDroiteMoyen, .imgDroiteMoyen img{
+    height: 35em;
+}
+
 
 /*imgDroite pour les articles avec image a gauche*/
 /*!!! regroupez le texte et le titre dans un div !!!*/
 
-.imgGauche, .imgGaucheGrand {
+.imgGauche, .imgGaucheGrand, .imgGaucheMoyen{
     display: flex;
     flex-direction: row-reverse;
     padding: 0;
@@ -172,13 +176,19 @@ figure{
     width: auto;  
 }
 
-.imgGauche div, .imgGaucheGrand div{
+.imgGauche div, .imgGaucheGrand div, .imgGaucheMoyen div{
     margin: 0 1em 1em 1em;
 }
 
 .imgGaucheGrand, .imgGaucheGrand img{
     height: 50em;
 }
+
+.imgGaucheMoyen, .imgGaucheMoyen img{
+    height: 35em;
+}
+
+
 
 .centre{
 margin: 0 15% 0 15%;

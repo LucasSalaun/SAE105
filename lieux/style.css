@@ -1,15 +1,30 @@
 
 /*Réglage de la citation*/
-main h2{
-    font-size: 2em;
-    width: 30em;
-    display: flex;
-    background-color: #C5A744;
-    border-radius: 20px;
-    padding: 0.5em ;
-    margin: 0 auto 3em auto;
-    justify-content: center;
-    font-weight: bold;
+@media (min-width: 640px) {
+    main h2{
+        font-size: 2em;
+        width: 30em;
+        display: flex;
+        background-color: #C5A744;
+        border-radius: 20px;
+        padding: 0.5em ;
+        margin: 0 auto 3em auto;
+        justify-content: center;
+        font-weight: bold;
+    }
+}
+@media (max-width: 640px) {
+    main h2{
+        font-size: 2em;
+        width: 14em;
+        display: flex;
+        background-color: #C5A744;
+        border-radius: 20px;
+        padding: 0.5em ;
+        margin: 0 auto 2em auto;
+        justify-content: center;
+        font-weight: bold;
+    }
 }
 /*Réglage des tites dans les articles*/
 article h3{
@@ -33,9 +48,16 @@ article{
 }
 
 /*Pour mettre le titre au dessus du text dans evenement*/
-.evenement{
-    display: flex;
-    flex-direction: column;
+@media (min-width: 640px) {
+    .evenement{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 640px) {
+    .evenement{
+        display: none;
+    }
 }
 /*Pour espacer localisation et visite proposé*/
 .visite{

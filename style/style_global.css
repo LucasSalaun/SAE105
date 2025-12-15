@@ -175,7 +175,7 @@ figure {
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 640px) { /* VERSION MOBILE*/
 
     .imgDroite,
     .imgDroiteGrand,
@@ -184,22 +184,19 @@ figure {
         flex-direction: column;
         padding: 0;
         height: auto;
-    }
-
-        .imgDroite div,
-    .imgDroiteGrand div,
-    .imgDroiteMoyen div {
-        margin: 0 1em 1em 1em;
+        width: 35em;
     }
 
     .imgDroiteGrand,
     .imgDroiteGrand img {
         height: auto;
+        width: 35em;
     }
 
     .imgDroiteMoyen,
     .imgDroiteMoyen img {
         height: auto;
+        width: 35em;
     }
 }
 
@@ -207,37 +204,70 @@ figure {
 /*imgDroite pour les articles avec image a gauche*/
 /*!!! regroupez le texte et le titre dans un div !!!*/
 
-.imgGauche,
-.imgGaucheGrand,
-.imgGaucheMoyen {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row-reverse;
-    padding: 0;
-    height: 20em;
+@media (min-width: 640px) { 
+
+    .imgGauche,
+    .imgGaucheGrand,
+    .imgGaucheMoyen {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+        padding: 0;
+        height: 20em;
+    }
+
+    .imgGauche img {
+        height: 20em;
+        width: auto;
+    }
+
+    .imgGauche div,
+    .imgGaucheGrand div,
+    .imgGaucheMoyen div {
+        margin: 0 1em 1em 1em;
+    }
+
+    .imgGaucheGrand,
+    .imgGaucheGrand img {
+        height: 50em;
+    }
+
+    .imgGaucheMoyen,
+    .imgGaucheMoyen img {
+        height: 25em;
+    }
 }
 
-.imgGauche img {
-    height: 20em;
-    width: auto;
-}
+@media (max-width: 640px) { /* VERSION MOBILE*/
 
-.imgGauche div,
-.imgGaucheGrand div,
-.imgGaucheMoyen div {
-    margin: 0 1em 1em 1em;
-}
+    .imgGauche,
+    .imgGaucheGrand,
+    .imgGaucheMoyen {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+        padding: 0;
+        height: auto;
+        width: 35em;
+    }
 
-.imgGaucheGrand,
-.imgGaucheGrand img {
-    height: 50em;
-}
+    .imgGauche img {
+        height: auto;
+        width: 35em;
+    }
 
-.imgGaucheMoyen,
-.imgGaucheMoyen img {
-    height: 25em;
-}
+    .imgGaucheGrand,
+    .imgGaucheGrand img {
+        height: auto;
+        width: 35em;
+    }
 
+    .imgGaucheMoyen,
+    .imgGaucheMoyen img {
+        height: auto;
+        width: 35em;
+    }
+}
 
 /*Centrage des blocs*/
 .centre {

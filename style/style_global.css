@@ -175,7 +175,8 @@ figure {
     }
 }
 
-@media (max-width: 640px) { /* VERSION MOBILE*/
+@media (max-width: 640px) {
+    /* VERSION MOBILE*/
 
     .imgDroite,
     .imgDroiteGrand,
@@ -185,12 +186,19 @@ figure {
         padding: 0;
         height: auto;
         width: 35em;
+        margin: 2em auto 2em auto;
     }
 
     .imgDroiteGrand,
     .imgDroiteGrand img {
         height: auto;
         width: 35em;
+    }
+
+    .imgDroite div,
+    .imgDroiteGrand div,
+    .imgDroiteMoyen div {
+        padding: 0 1em 1em 1em;
     }
 
     .imgDroiteMoyen,
@@ -204,7 +212,7 @@ figure {
 /*imgDroite pour les articles avec image a gauche*/
 /*!!! regroupez le texte et le titre dans un div !!!*/
 
-@media (min-width: 640px) { 
+@media (min-width: 640px) {
 
     .imgGauche,
     .imgGaucheGrand,
@@ -238,7 +246,8 @@ figure {
     }
 }
 
-@media (max-width: 640px) { /* VERSION MOBILE*/
+@media (max-width: 640px) {
+    /* VERSION MOBILE*/
 
     .imgGauche,
     .imgGaucheGrand,
@@ -249,6 +258,7 @@ figure {
         padding: 0;
         height: auto;
         width: 35em;
+        margin: 2em auto 2em auto;
     }
 
     .imgGauche img {
@@ -267,12 +277,22 @@ figure {
         height: auto;
         width: 35em;
     }
+
+    .imgGauche div,
+    .imgGaucheGrand div,
+    .imgGaucheMoyen div {
+        padding: 0 1em 1em 1em;
+    }
 }
 
 /*Centrage des blocs*/
-.centre {
-    margin: 0 15% 0 15%;
+@media (min-width: 640px) {
+    .centre {
+        margin: 0 15% 0 15%;
+    }
 }
+
+
 
 /*Menu ouvrant*/
 

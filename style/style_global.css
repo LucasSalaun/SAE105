@@ -194,21 +194,19 @@ figure {
     .imgDroiteGrand img {
         height: auto;
         width: 35em;
-        margin: 0;
     }
 
     .imgDroite div,
     .imgDroiteGrand div,
     .imgDroiteMoyen div {
         padding: 0 1em 1em 1em;
-        margin: 0;
+
     }
 
     .imgDroiteMoyen,
     .imgDroiteMoyen img {
         height: auto;
         width: 35em;
-        margin: 0;
     }
 }
 

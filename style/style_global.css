@@ -42,7 +42,7 @@ nav {
     justify-content: center;
 }
 
-nav h3{
+nav h3 {
     position: absolute;
     left: 0.5em;
 }
@@ -105,7 +105,9 @@ main h3 {
 h4 {
     font-size: 1.25em;
 
-}/*footer*/
+}
+
+/*footer*/
 footer {
     display: flex;
     justify-content: space-between;
@@ -132,7 +134,7 @@ main img {
     border-radius: 40px;
 }
 
-figure{
+figure {
     margin: 0;
 }
 
@@ -140,35 +142,74 @@ figure{
 /*imgDroite pour les articles avec image a droite*/
 /*!!! regroupez le texte et le titre dans un div !!!*/
 
-.imgDroite, .imgDroiteGrand, .imgDroiteMoyen{
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    height: 20em;
+@media (min-width: 640px) {
+
+    .imgDroite,
+    .imgDroiteGrand,
+    .imgDroiteMoyen {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        height: 20em;
+    }
+
+    .imgDroite img {
+        height: 20em;
+        width: auto;
+    }
+
+    .imgDroite div,
+    .imgDroiteGrand div,
+    .imgDroiteMoyen div {
+        margin: 0 1em 1em 1em;
+    }
+
+    .imgDroiteGrand,
+    .imgDroiteGrand img {
+        height: 50em;
+    }
+
+    .imgDroiteMoyen,
+    .imgDroiteMoyen img {
+        height: 25em;
+    }
 }
 
-.imgDroite img{
-    height: 20em;
-    width: auto;  
-}
+@media (max-width: 640px) {
 
-.imgDroite div, .imgDroiteGrand div, .imgDroiteMoyen div{
-    margin: 0 1em 1em 1em;
-}
+    .imgDroite,
+    .imgDroiteGrand,
+    .imgDroiteMoyen {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+    }
 
-.imgDroiteGrand, .imgDroiteGrand img{
-    height: 50em;
-}
+        .imgDroite div,
+    .imgDroiteGrand div,
+    .imgDroiteMoyen div {
+        margin: 0 1em 1em 1em;
+    }
 
-.imgDroiteMoyen, .imgDroiteMoyen img{
-    height: 25em;
+    .imgDroiteGrand,
+    .imgDroiteGrand img {
+        height: auto;
+    }
+
+    .imgDroiteMoyen,
+    .imgDroiteMoyen img {
+        height: auto;
+    }
 }
 
 
 /*imgDroite pour les articles avec image a gauche*/
 /*!!! regroupez le texte et le titre dans un div !!!*/
 
-.imgGauche, .imgGaucheGrand, .imgGaucheMoyen{
+.imgGauche,
+.imgGaucheGrand,
+.imgGaucheMoyen {
     display: flex;
     justify-content: flex-end;
     flex-direction: row-reverse;
@@ -178,25 +219,29 @@ figure{
 
 .imgGauche img {
     height: 20em;
-    width: auto;  
+    width: auto;
 }
 
-.imgGauche div, .imgGaucheGrand div, .imgGaucheMoyen div{
+.imgGauche div,
+.imgGaucheGrand div,
+.imgGaucheMoyen div {
     margin: 0 1em 1em 1em;
 }
 
-.imgGaucheGrand, .imgGaucheGrand img{
+.imgGaucheGrand,
+.imgGaucheGrand img {
     height: 50em;
 }
 
-.imgGaucheMoyen, .imgGaucheMoyen img{
+.imgGaucheMoyen,
+.imgGaucheMoyen img {
     height: 25em;
 }
 
 
 /*Centrage des blocs*/
-.centre{
-margin: 0 15% 0 15%;
+.centre {
+    margin: 0 15% 0 15%;
 }
 
 /*Menu ouvrant*/

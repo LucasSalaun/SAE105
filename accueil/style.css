@@ -3,3 +3,9 @@ main h3 {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 640px) {
+    .imgGauche,{
+        display: none;
+    }
+}

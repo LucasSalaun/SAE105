@@ -1,78 +1,115 @@
-
 /*Réglage de la citation*/
 @media (min-width: 640px) {
-    main h2{
+    main h2 {
         font-size: 2em;
         width: 30em;
         display: flex;
         background-color: #C5A744;
         border-radius: 20px;
-        padding: 0.5em ;
+        padding: 0.5em;
         margin: 0 auto 3em auto;
         justify-content: center;
         font-weight: bold;
     }
 }
+
 @media (max-width: 640px) {
-    main h2{
+    main h2 {
         font-size: 2em;
         width: 14em;
         display: flex;
         background-color: #C5A744;
         border-radius: 20px;
-        padding: 0.5em ;
+        padding: 0.5em;
         margin: 0 auto 2em auto;
         justify-content: center;
         font-weight: bold;
     }
 }
+
 /*Réglage des tites dans les articles*/
-article h3{
+article h3 {
     display: flex;
     justify-content: center;
     padding: 1em 0 1em 0;
 }
+
 /*Réglage de la configuration des articles*/
-article{
+article {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0;
 }
+
 /*Esapce a gauche et a droite des textes*/
-.texte{
+.texte {
     padding: 0 2em 0 2em;
 }
-.localisation{
+
+.localisation {
     height: 35em;
 }
 
 /*Pour mettre le titre au dessus du text dans evenement*/
 @media (min-width: 640px) {
-    .evenement{
+    .evenement {
         display: flex;
         flex-direction: column;
     }
 }
+
 @media (max-width: 640px) {
-    .evenement{
+    .evenement {
         display: none;
     }
 }
+
 /*Pour espacer localisation et visite proposé*/
-.visite{
+.visite {
     margin-top: 6em;
 }
-/*Pour mettre la longuer des blocks a 30em*/
-.changement{
+
+
+
+@media (min-width: 640px) {
+
+    /*pour ecarter le block de la bordure de l'article*/
+    .proximite {
+        margin-right: 1em;
+    }
+
+    /*Pour espacer le titre de la bordure*/
+    .proximite h3 {
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+    }   
+
+    /*Pour mettre la longuer des blocks a 30em*/
+    .changement {
     width: 30em;
+    }
 }
-/*pour ecarter le block de la bordure de l'article*/
-.proximite{
-    margin-right: 1em;
-}
-/*Pour espacer le titre de la bordure*/
-.proximite h3{
-    padding-left: 0.2em;
-    padding-right: 0.2em;
+
+@media (max-width: 640px) {
+    .localisation img {
+        display: none;
+    }
+
+    .localisation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 50em;
+    }
+    .proximite h3{
+        resize: 90%;
+    }
+    .texte{
+        padding: 0;
+        padding: 0;
+    }
+    .changement p{
+        padding-left: 40px;
+    }
 }

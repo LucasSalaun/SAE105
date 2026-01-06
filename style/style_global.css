@@ -143,7 +143,7 @@ figure {
 /*imgDroite pour les articles avec image a droite*/
 /*!!! regroupez le texte et le titre dans un div !!!*/
 
-@media (min-width: 640px) {
+@media (max-width: 50000px) {
 
     .imgDroite,
     .imgDroiteGrand,
@@ -173,6 +173,40 @@ figure {
     .imgDroiteMoyen,
     .imgDroiteMoyen img {
         height: 25em;
+    }
+}
+
+@media (max-width: 1200px) {
+    /* VERSION TABLETTE*/
+
+    .imgDroite,
+    .imgDroiteGrand,
+    .imgDroiteMoyen {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+        width: 60em;
+        margin: 2em auto 2em auto;
+    }
+
+    .imgDroiteGrand,
+    .imgDroiteGrand img {
+        height: auto;
+        width: 60em;
+    }
+
+    .imgDroite div,
+    .imgDroiteGrand div,
+    .imgDroiteMoyen div {
+        padding: 0 1em 1em 1em;
+
+    }
+
+    .imgDroiteMoyen,
+    .imgDroiteMoyen img {
+        height: auto;
+        width: 60em;
     }
 }
 
@@ -211,10 +245,11 @@ figure {
 }
 
 
+
 /*imgDroite pour les articles avec image a gauche*/
 /*!!! regroupez le texte et le titre dans un div !!!*/
 
-@media (min-width: 640px) {
+@media (max-width: 50000px) {
 
     .imgGauche,
     .imgGaucheGrand,
@@ -245,6 +280,45 @@ figure {
     .imgGaucheMoyen,
     .imgGaucheMoyen img {
         height: 25em;
+    }
+}
+
+@media (max-width: 1200px) {
+    /* VERSION TABLETTE*/
+
+    .imgGauche,
+    .imgGaucheGrand,
+    .imgGaucheMoyen {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+        padding: 0;
+        height: auto;
+        width: 60em;
+        margin: 2em auto 2em auto;
+    }
+
+    .imgGauche img {
+        height: auto;
+        width: 60em;
+    }
+
+    .imgGaucheGrand,
+    .imgGaucheGrand img {
+        height: auto;
+        width: 60em;
+    }
+
+    .imgGaucheMoyen,
+    .imgGaucheMoyen img {
+        height: auto;
+        width: 60em;
+    }
+
+    .imgGauche div,
+    .imgGaucheGrand div,
+    .imgGaucheMoyen div {
+        padding: 0 1em 1em 1em;
     }
 }
 
@@ -286,6 +360,7 @@ figure {
         padding: 0 1em 1em 1em;
     }
 }
+
 
 /*Centrage des blocs*/
 @media (min-width: 640px) {

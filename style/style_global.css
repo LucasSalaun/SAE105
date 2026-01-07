@@ -183,17 +183,26 @@ figure {
     .imgDroiteGrand,
     .imgDroiteMoyen {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 0;
         height: auto;
-        width: 60em;
+        width: 45em;
         margin: 2em auto 2em auto;
     }
 
-    .imgDroiteGrand,
+    .imgDroite img {
+        height: auto;
+        width: 20em;
+    }
+
+    .imgDroiteGrand {
+        height: auto;
+        width: 45em;
+    }
+
     .imgDroiteGrand img {
         height: auto;
-        width: 60em;
+        width: 20em;
     }
 
     .imgDroite div,
@@ -203,10 +212,18 @@ figure {
 
     }
 
-    .imgDroiteMoyen,
+    .imgDroiteMoyen {
+        height: auto;
+        width: 45em;
+    }
+
     .imgDroiteMoyen img {
         height: auto;
-        width: 60em;
+        width: 20em;
+    }
+
+    article p {
+        font-size: 0.70em;
     }
 }
 
@@ -294,25 +311,33 @@ figure {
         flex-direction: column-reverse;
         padding: 0;
         height: auto;
-        width: 60em;
+        width: 45em;
         margin: 2em auto 2em auto;
     }
 
     .imgGauche img {
         height: auto;
-        width: 60em;
+        width: 20em;
     }
 
-    .imgGaucheGrand,
+    .imgGaucheGrand {
+        height: auto;
+        width: 45em;
+    }
+
     .imgGaucheGrand img {
         height: auto;
-        width: 60em;
+        width: 20em;
     }
 
-    .imgGaucheMoyen,
+    .imgGaucheMoyen{
+        height: auto;
+        width: 45em;
+    }
+
     .imgGaucheMoyen img {
         height: auto;
-        width: 60em;
+        width: 20em;
     }
 
     .imgGauche div,

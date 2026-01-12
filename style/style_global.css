@@ -235,14 +235,14 @@ figure {
         flex-direction: column;
         padding: 0;
         height: auto;
-        width: 35em;
+        width: 25em;
         margin: 2em auto 2em auto;
     }
 
     .imgDroiteGrand,
     .imgDroiteGrand img {
         height: auto;
-        width: 35em;
+        width: 25em;
     }
 
     .imgDroite div,
@@ -255,7 +255,7 @@ figure {
     .imgDroiteMoyen,
     .imgDroiteMoyen img {
         height: auto;
-        width: 35em;
+        width: 25em;
     }
 }
 
@@ -308,25 +308,25 @@ figure {
         flex-direction: column-reverse;
         padding: 0;
         height: auto;
-        width: 35em;
+        width: 25em;
         margin: 2em auto 2em auto;
     }
 
     .imgGauche img {
         height: auto;
-        width: 35em;
+        width: 25em;
     }
 
     .imgGaucheGrand,
     .imgGaucheGrand img {
         height: auto;
-        width: 35em;
+        width: 25em;
     }
 
     .imgGaucheMoyen,
     .imgGaucheMoyen img {
         height: auto;
-        width: 35em;
+        width: 25em;
     }
 
     .imgGauche div,

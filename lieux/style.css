@@ -1,5 +1,5 @@
 /*Réglage de la citation*/
-@media (min-width: 640px) {
+@media (min-width: 428px) {
     main h2 {
         font-size: 2em;
         width: 30em;
@@ -13,7 +13,7 @@
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 428px) {
     main h2 {
         font-size: 2em;
         width: 14em;
@@ -52,14 +52,14 @@ article {
 }
 
 /*Pour mettre le titre au dessus du text dans evenement*/
-@media (min-width: 640px) {
+@media (min-width: 428px) {
     .evenement {
         display: flex;
         flex-direction: column;
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 428px) {
     .evenement {
         display: none;
     }
@@ -72,7 +72,7 @@ article {
 
 
 
-@media (min-width: 640px) {
+@media (min-width: 428px) {
 
     /*pour ecarter le block de la bordure de l'article*/
     .proximite {
@@ -91,7 +91,7 @@ article {
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 428px) {
     .localisation img {
         display: none;
     }

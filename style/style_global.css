@@ -60,16 +60,28 @@ header a {
     font-weight: bold;
     margin: 1.5em;
 }
-
-header figure img {
-    position: absolute;
-    height: 150px;
-    width: auto;
-    margin: 0;
-    left: 10px;
-    top: 10px;
+@media (min-width: 428px) {
+    /* Changement de taille du logo du Vatican pour le format desktop*/
+    header figure img {
+        position: absolute;
+        height: 150px;
+        width: auto;
+        margin: 0;
+        left: 10px;
+        top: 10px;
+    }
 }
-
+@media (max-width: 428px) {
+    /*Changement de taille du logo du Vatican pour le format smartphone*/
+    header figure img {
+        position: absolute;
+        height: 100px;
+        width: auto;
+        margin: 0;
+        left: 10px;
+        top: 35px;
+    }
+}
 .titre_et_logo {
     display: flex;
     flex-direction: row-reverse;
@@ -143,7 +155,7 @@ figure {
 /*imgDroite pour les articles avec image a droite*/
 /*!!! regroupez le texte et le titre dans un div !!!*/
 
-@media (max-width: 50000px) {
+@media (min-width: 428px) {
 
     .imgDroite,
     .imgDroiteGrand,
@@ -176,58 +188,8 @@ figure {
     }
 }
 
-@media (max-width: 1200px) {
-    /* VERSION TABLETTE*/
 
-    .imgDroite,
-    .imgDroiteGrand,
-    .imgDroiteMoyen {
-        display: flex;
-        flex-direction: column-reverse;
-        padding: 0;
-        height: auto;
-        width: 45em;
-        margin: 2em auto 2em auto;
-    }
-
-    .imgDroite img {
-        height: auto;
-        width: 20em;
-    }
-
-    .imgDroiteGrand {
-        height: auto;
-        width: 45em;
-    }
-
-    .imgDroiteGrand img {
-        height: auto;
-        width: 20em;
-    }
-
-    .imgDroite div,
-    .imgDroiteGrand div,
-    .imgDroiteMoyen div {
-        padding: 0 1em 1em 1em;
-
-    }
-
-    .imgDroiteMoyen {
-        height: auto;
-        width: 45em;
-    }
-
-    .imgDroiteMoyen img {
-        height: auto;
-        width: 20em;
-    }
-
-    article p {
-        font-size: 0.70em;
-    }
-}
-
-@media (max-width: 640px) {
+@media (max-width: 428px) {
     /* VERSION MOBILE*/
 
     .imgDroite,
@@ -266,7 +228,7 @@ figure {
 /*imgDroite pour les articles avec image a gauche*/
 /*!!! regroupez le texte et le titre dans un div !!!*/
 
-@media (max-width: 50000px) {
+@media (min-width: 428px) {
 
     .imgGauche,
     .imgGaucheGrand,
@@ -299,55 +261,7 @@ figure {
         height: 25em;
     }
 }
-
-@media (max-width: 1200px) {
-    /* VERSION TABLETTE*/
-
-    .imgGauche,
-    .imgGaucheGrand,
-    .imgGaucheMoyen {
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: column-reverse;
-        padding: 0;
-        height: auto;
-        width: 45em;
-        margin: 2em auto 2em auto;
-    }
-
-    .imgGauche img {
-        height: auto;
-        width: 20em;
-    }
-
-    .imgGaucheGrand {
-        height: auto;
-        width: 45em;
-    }
-
-    .imgGaucheGrand img {
-        height: auto;
-        width: 20em;
-    }
-
-    .imgGaucheMoyen{
-        height: auto;
-        width: 45em;
-    }
-
-    .imgGaucheMoyen img {
-        height: auto;
-        width: 20em;
-    }
-
-    .imgGauche div,
-    .imgGaucheGrand div,
-    .imgGaucheMoyen div {
-        padding: 0 1em 1em 1em;
-    }
-}
-
-@media (max-width: 640px) {
+@media (max-width: 428px) {
     /* VERSION MOBILE*/
 
     .imgGauche,
@@ -388,7 +302,7 @@ figure {
 
 
 /*Centrage des blocs*/
-@media (min-width: 640px) {
+@media (min-width: 428px) {
     .centre {
         margin: 0 15% 0 15%;
     }

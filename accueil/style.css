@@ -4,7 +4,7 @@ main h3 {
   justify-content: center;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 428px) {
     .imgGauche,{
         display: none;
     }

@@ -52,18 +52,12 @@ article {
 }
 
 /*Pour mettre le titre au dessus du text dans evenement*/
-@media (min-width: 428px) {
-    .evenement {
-        display: flex;
-        flex-direction: column;
-    }
+
+.evenement {
+    display: flex;
+    flex-direction: column;
 }
 
-@media (max-width: 428px) {
-    .evenement {
-        display: none;
-    }
-}
 
 /*Pour espacer localisation et visite proposé*/
 .visite {

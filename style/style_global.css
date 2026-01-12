@@ -60,16 +60,28 @@ header a {
     font-weight: bold;
     margin: 1.5em;
 }
-
-header figure img {
-    position: absolute;
-    height: 150px;
-    width: auto;
-    margin: 0;
-    left: 10px;
-    top: 10px;
+@media (min-width: 428px) {
+    /* Changement de taille du logo du Vatican pour le format desktop*/
+    header figure img {
+        position: absolute;
+        height: 150px;
+        width: auto;
+        margin: 0;
+        left: 10px;
+        top: 10px;
+    }
 }
-
+@media (max-width: 428px) {
+    /*Changement de taille du logo du Vatican pour le format smartphone*/
+    header figure img {
+        position: absolute;
+        height: 100px;
+        width: auto;
+        margin: 0;
+        left: 10px;
+        top: 35px;
+    }
+}
 .titre_et_logo {
     display: flex;
     flex-direction: row-reverse;

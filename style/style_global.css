@@ -30,35 +30,71 @@ header {
     background: linear-gradient(to left, #C5A744, 80%, #D2BD65);
 
 }
+@media (min-width: 428px) {
+    /*Nav format desktop*/
+    nav {
+        background-color: #C5A744;
+        border: solid;
+        border-width: 5px 0;
+        border-color: #A8804D;
+        display: flex;
+        padding: 1em;
+        align-items: center;
+        justify-content: center;
+    }
 
-nav {
-    background-color: #C5A744;
-    border: solid;
-    border-width: 5px 0;
-    border-color: #A8804D;
-    display: flex;
-    padding: 1em;
-    align-items: center;
-    justify-content: center;
+    nav h3 {
+        position: absolute;
+        left: 0.5em;
+    }
+
+    header a {
+        display: flex;
+        border: solid;
+        border-color: #A8804D;
+        padding: 6px 3em;
+        background-color: #D2BD65;
+        width: 6em;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin: 1.5em;
+    }
 }
 
-nav h3 {
-    position: absolute;
-    left: 0.5em;
-}
-
-header a {
-    display: flex;
-    border: solid;
-    border-color: #A8804D;
-    padding: 6px 3em;
-    background-color: #D2BD65;
-    width: 6em;
-    justify-content: center;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    margin: 1.5em;
+@media (max-width: 428px) {
+    /*Nav format téléphone*/
+    nav {
+        background-color: #C5A744;
+        border: solid;
+        border-width: 5px 0;
+        border-color: #A8804D;
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+    /*
+    nav h3 {
+        position: absolute;
+        left: 0.5em;
+    }
+    */
+    header a {
+        display: flex;
+        border: solid;
+        border-color: #A8804D;
+        padding: 6px 3em;
+        background-color: #D2BD65;
+        width: 6em;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
 }
 @media (min-width: 428px) {
     /* Changement de taille du logo du Vatican pour le format desktop*/

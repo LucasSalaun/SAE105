@@ -111,11 +111,11 @@ header {
     /*Changement de taille du logo du Vatican pour le format smartphone*/
     header figure img {
         position: absolute;
-        height: 100px;
+        height: 80px;
         width: auto;
         margin: 0;
         left: 10px;
-        top: 35px;
+        top: 17px;
     }
 }
 .titre_et_logo {
@@ -126,13 +126,23 @@ header {
 }
 
 /* titres */
-h1 {
-    font-family: 'montecarloregular';
-    font-size: 6em;
-    font-weight: 100;
-    margin: 0.3em;
+@media (min-width: 428px) {
+    h1 {
+        font-family: 'montecarloregular';
+        font-size: 6em;
+        font-weight: 100;
+        margin: 0.3em;
+    }
 }
 
+@media (max-width: 428px) {
+    h1 {
+        font-family: 'montecarloregular';
+        font-size: 4em;
+        font-weight: 100;
+        margin: 0.3em;
+    }
+}
 h2 {
     font-family: 'Outfit';
     font-size: 3em;

@@ -61,6 +61,16 @@ header {
         font-weight: bold;
         margin: 1.5em;
     }
+
+    /* Changement de taille du logo du Vatican pour le format desktop*/
+    header figure img {
+        position: absolute;
+        height: 150px;
+        width: auto;
+        margin: 0;
+        left: 10px;
+        top: 10px;
+    }
 }
 
 @media (max-width: 428px) {
@@ -95,20 +105,8 @@ header {
         font-weight: bold;
         margin-bottom: 1em;
     }
-}
-@media (min-width: 428px) {
-    /* Changement de taille du logo du Vatican pour le format desktop*/
-    header figure img {
-        position: absolute;
-        height: 150px;
-        width: auto;
-        margin: 0;
-        left: 10px;
-        top: 10px;
-    }
-}
-@media (max-width: 428px) {
-    /*Changement de taille du logo du Vatican pour le format smartphone*/
+
+     /*Changement de taille du logo du Vatican pour le format smartphone*/
     header figure img {
         position: absolute;
         height: 80px;
@@ -118,6 +116,7 @@ header {
         top: 17px;
     }
 }
+
 .titre_et_logo {
     display: flex;
     flex-direction: row-reverse;
@@ -368,6 +367,7 @@ summary h3 {
 summary {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -382,4 +382,9 @@ summary {
 
 .galerie img {
     border-radius: 0;
+}
+
+.fleche{
+    width: 3em;
+    height: 2em;
 }

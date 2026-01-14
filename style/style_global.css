@@ -181,7 +181,6 @@ article {
     border-radius: 40px;
     padding: 2em;
     margin: 2em 2em 4em 2em;
-    box-shadow: 8px 5px 5px #A8804D;
 }
 
 details summary {
@@ -199,10 +198,10 @@ figure {
 
 
 /*imgDroite pour les articles avec image a droite*/
-/*!!! regroupez le texte et le titre dans un div !!!*/
+/*!!! regrouper le texte et le titre dans un div !!!*/
 
 @media (min-width: 428px) {
-
+    /* VERSION DESKTOP*/
     .imgDroite,
     .imgDroiteGrand,
     .imgDroiteMoyen {
@@ -210,6 +209,7 @@ figure {
         flex-direction: row;
         padding: 0;
         height: 20em;
+        box-shadow: 8px 5px 5px #A8804D;
     }
 
     .imgDroite img {
@@ -272,10 +272,10 @@ figure {
 
 
 /*imgDroite pour les articles avec image a gauche*/
-/*!!! regroupez le texte et le titre dans un div !!!*/
+/*!!! regrouper le texte et le titre dans un div !!!*/
 
 @media (min-width: 428px) {
-
+    /* VERSION DESKTOP*/
     .imgGauche,
     .imgGaucheGrand,
     .imgGaucheMoyen {
@@ -284,6 +284,7 @@ figure {
         flex-direction: row-reverse;
         padding: 0;
         height: 20em;
+        box-shadow: 8px 5px 5px #A8804D;
     }
 
     .imgGauche img {

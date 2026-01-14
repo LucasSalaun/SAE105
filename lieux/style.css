@@ -15,8 +15,8 @@
 
 @media (max-width: 428px) {
     main h2 {
-        font-size: 2em;
-        width: 14em;
+        font-size: 1.5em;
+        width: 15em;
         display: flex;
         background-color: #C5A744;
         border-radius: 20px;

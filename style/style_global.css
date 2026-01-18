@@ -323,19 +323,12 @@ figure {
         margin: 2em auto 2em auto;
     }
 
-    .imgGauche img {
+    .imgGaucheGrand {
         height: auto;
         width: 25em;
     }
 
-    .imgGaucheGrand,
-    .imgGaucheGrand img {
-        height: auto;
-        width: 25em;
-    }
-
-    .imgGaucheMoyen,
-    .imgGaucheMoyen img {
+    .imgGaucheMoyen {
         height: auto;
         width: 25em;
     }
